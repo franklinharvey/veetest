@@ -9,6 +9,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
@@ -19,5 +20,8 @@ jobs:
       - name: Install C toolchain and Boehm GC
         run: sudo apt-get update && sudo apt-get install -y build-essential libgc-dev
 
+      # setup-v unpacks V under ./vlang/; exclude it so `v test .` only runs this module.
       - name: Test veetest
-        run: v -cc gcc test .
+        run: |
+          rm -rf vlang
+          v -cc gcc test suite_test.v golden_test.v
