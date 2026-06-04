@@ -12,7 +12,7 @@ v -cc gcc test .
 v install
 
 # Install a tagged release (what consumers use)
-v install https://github.com/franklinharvey/veetest@v0.1.0
+v install https://github.com/franklinharvey/veetest@v0.2.0
 ```
 
 CI runs `v -cc gcc test .` on Ubuntu with `libgc-dev` and gcc.
