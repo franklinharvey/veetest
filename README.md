@@ -5,14 +5,14 @@ Named **suites** and **cases** for [V](https://vlang.io), on top of the built-in
 Published as a V module:
 
 ```bash
-v install github.com/franklinharvey/veetest@0.1.0
+v install https://github.com/franklinharvey/veetest@v0.1.0
 ```
 
 Add to your `v.mod`:
 
 ```v
 Module {
-  dependencies: ['github.com/franklinharvey/veetest@0.1.0']
+  dependencies: ['https://github.com/franklinharvey/veetest@v0.1.0']
 }
 ```
 
