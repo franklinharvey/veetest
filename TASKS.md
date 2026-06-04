@@ -7,7 +7,7 @@
 - [x] Setup / teardown hooks
 - [x] Expect helpers (`check`, `eq_*`, `contains`, `len_is`)
 - [x] Self-tests in `suite_test.v`
-- [x] vrpc + examples depend on `../veetest`
+- [x] Published; vrpc consumes `https://github.com/franklinharvey/veetest@v0.1.0`
 
 ## Next
 

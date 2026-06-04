@@ -55,4 +55,4 @@ cd veetest && v -cc gcc test .
 
 ## Roadmap
 
-See [TASKS.md](TASKS.md).
+See [TASKS.md](TASKS.md). Agents: see [AGENTS.md](AGENTS.md) for release and consumer bump workflow.
