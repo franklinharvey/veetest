@@ -1,0 +1,6 @@
+*.o
+*.d
+*.so
+*.tmp.c
+*.tmp.v
+test_*_tmp
