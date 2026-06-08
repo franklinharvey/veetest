@@ -20,6 +20,12 @@
 - [x] `before_case` / `after_case` hooks
 - [x] `cases_table` for table-driven cases
 
+## GitHub polish (done)
+
+- [x] README hero image, badges, and table of contents
+- [x] CHANGELOG.md, CONTRIBUTING.md, SECURITY.md
+- [x] Issue and pull request templates
+
 ## Later
 
 - [ ] HTTP test client helpers (server fixture, retry)
